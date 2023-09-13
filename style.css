@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+}
+
+body {
+    padding-top: 250px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 12px;
+    border:none;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    cursor:pointer;
+        }
+    
+            
+        .btn:disabled {
+            pointer-events: none;
+          }
+          
+          .btn:hover {
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+          }
+          
+          .btn:active {
+            box-shadow: none;
+            transform: translateY(0);
+          }
+
+          .result {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+          }
