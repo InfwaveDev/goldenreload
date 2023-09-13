@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const randomNum = Math.floor(Math.random() * 10000) + 1; // Generate a random number between 1 and 10000.
 
         if (randomNum === 1) {
-            resultDiv.innerHTML = "<p>Congratulations, you won!</p>";
+            resultDiv.innerHTML = "<p>You won! The odds of this are 1 in 10,000!</p>";
 
             // Store that the user has won the badge in local storage.
             localStorage.setItem("specialBadgeWon", "true");
@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Event listener for clearing data and restarting.
     clearDataButton.addEventListener("click", () => {
         localStorage.removeItem("specialBadgeWon");
-        resultDiv.innerHTML = "<p>Data cleared. You can now try again!</p>";
+        resultDiv.innerHTML = "<p>Data cleared. Refresh try again!</p>";
     });
 });
