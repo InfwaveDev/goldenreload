@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Event listener for clearing data and restarting.
     clearDataButton.addEventListener("click", () => {
         localStorage.removeItem("specialBadgeWon");
-        resultDiv.innerHTML = "<p>Data cleared. Refresh try again!</p>";
+        resultDiv.innerHTML = "<p>Data cleared. Refresh to try again!</p>";
     });
 });
