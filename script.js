@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Function to check if the user wins the badge.
     function checkBadge() {
-        const randomNum = Math.floor(Math.random() * 10) + 1; // Generate a random number between 1 and 10000.
+        const randomNum = Math.floor(Math.random() * 10000) + 1; // Generate a random number between 1 and 10000.
 
         if (randomNum === 1) {
             resultDiv.innerHTML = "<p>You won! The odds of this are 1 in 10,000!</p>";
